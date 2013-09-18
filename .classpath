@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/xmlbeans-2.5.0/lib/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/xmlbeans-2.5.0/lib/resolver.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/xmlbeans-2.5.0/lib/xbean.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/xmlbeans-2.5.0/lib/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/xmlbeans-2.5.0/lib/xmlbeans-qname.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/xmlbeans-2.5.0/lib/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/javax.mail-1.3.3.01.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/poi-3.9/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/poi-3.9/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/poi-3.9/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/poi-3.9/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/poi-3.9/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/poi-3.9/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/mysql-connector-java-5.1.23/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Work/connectors/dom4j-1.6.1/dom4j-1.6.1.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

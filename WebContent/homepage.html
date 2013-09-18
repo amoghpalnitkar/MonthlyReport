@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head></head>
+<style>
+@import url(style.css);
+</style>
+
+
+<script type="text/javascript">
+
+  function getMyID(inputId)
+  {
+
+	var form = document.getElementById("pp");
+
+	if(inputId=="paper")
+	{
+    		form.style.display = "inline";    
+	}
+	else
+	{
+		form.style.display = "none";
+	}
+	var form = document.getElementById("attended");
+
+	if(inputId=="attend")
+	{
+    		form.style.display = "inline";    
+	}
+	else
+	{
+		form.style.display = "none";
+	}
+	var form = document.getElementById("organized");
+
+	if(inputId=="organize")
+	{
+    		form.style.display = "inline";    
+	}
+	else
+	{
+		form.style.display = "none";
+	}
+
+  }
+
+
+
+
+</script>
+<body>
+
+<div class="top">
+  <img src="images/logo.png">
+  <img src="images/puch.png">
+</div>
+<table >
+
+<td class="col1">
+<br></br>
+
+
+
+<div id="navContainer">
+<ul>
+
+<li> 
+  <span><a href="#" id="paper"  onclick="getMyID(this.id);"> Publication</a></span>
+</li>
+<li>
+<span><a href="#">Workshops/FDP/Seminars  </a></span>
+<ul>
+<li> <a href="#" id="attend"  onclick="getMyID(this.id);"> Attended</a></li>
+<li> <a href="#" id="organize"  onclick="getMyID(this.id);"> Organized </a></li>
+</ul>
+</li>
+
+
+</div>
+
+</td>
+ 
+  
+
+<td class="col2">
+<div class="column2" id="organized">
+Workshop taken by:<br> <input  type="text" >
+<br>Title: <br><input  type="text" >
+ Start date:<br> <input  type="text" >
+<br>End date:<br> <input  type="text" >
+Place:<br> <input  type="text" >
+<br>Date:<br> <input  type="text" >
+
+</div>
+
+<div class="column2" id="attended">
+Seminar by:<br> <input  type="text" >
+<br>Subject: <br><input  type="text" >
+</div>
+
+<div class="column2" id="pp">
+Paper published in:<br> <input  type="text" >
+<br>Subject:<br> <input  type="text" >
+</div>
+
+<div class="column2" id="stud_achieve">
+Student name:<br> <input  type="text" >
+<br>Date:<br> <input  type="text" >
+Event name:<br> <input  type="text" >
+<br>Place:<br> <input  type="text" >
+Position:<br> <input  type="text" >
+<br>Type:<br> <input  type="text" >
+
+
+
+</div>
+
+
+
+</td>
+
+</table>
+
+</body>
+</html>
