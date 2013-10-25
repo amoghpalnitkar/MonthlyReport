@@ -699,6 +699,9 @@ public String[] getfullname(String userid) throws ClassNotFoundException, SQLExc
 	
 }
 
+
+//
+
 public String[] getstud_details(String studid) throws ClassNotFoundException, SQLException
 {
 	String details_stud[]=new String [3];
